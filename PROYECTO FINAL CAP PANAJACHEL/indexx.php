@@ -24,6 +24,7 @@
 	</head>
 	<body>
 <!--login modal-->
+
 <div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
 <form name="form1" method="post" action="" class="form col-md-12 center-block">
   <div class="modal-dialog">
@@ -31,6 +32,7 @@
       <div class="modal-body">         
       	<center><img src="img/empresa.png" width="175" height="150"></center><br>
       	<?php 
+          echo 'Hola soy nuevo en esto';
 	  	if(!empty($_POST['usu']) and !empty($_POST['con'])){ 
 			$usu=limpiar($_POST['usu']);
 			$con=limpiar($_POST['con']);
