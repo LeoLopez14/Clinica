@@ -33,6 +33,7 @@
       	<center><img src="img/empresa.png" width="175" height="150"></center><br>
       	<?php 
           echo 'Hola soy nuevo en esto';
+          echo 'Hola mundo';
 	  	if(!empty($_POST['usu']) and !empty($_POST['con'])){ 
 			$usu=limpiar($_POST['usu']);
 			$con=limpiar($_POST['con']);
